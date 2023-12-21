@@ -23,7 +23,7 @@ This Python script manages and fetches crude oil data from the India Open Govern
 Run the script to fetch and store crude oil data from the India OGD API into your local MongoDB:
 
 ```bash
-python your_script_name.py
+query_tool.py
 ```
 
 Adjust the limit parameter in the fetch_and_store_data() function to control the number of records fetched.
@@ -34,7 +34,7 @@ After fetching the data, you can query and display the stored records:
 
 ```bash
 
-python your_script_name.py
+query_tool.py
 ```
 
 Follow the on-screen prompts:
